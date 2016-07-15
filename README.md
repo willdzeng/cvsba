@@ -3,7 +3,8 @@ cvsba is an OpenCV wrapper for the well-known Sparse Bundle Adjustment library (
 Originally from
 http://www.uco.es/investiga/grupos/ava/node/39
 
-What I did:
+
+# (Di Zeng) What I did:
 - fixed some warning issue
 - fixed OpenCV 3.1 compiling error 
 
@@ -36,5 +37,6 @@ Original Code Contact:
 Sergio Garrido-Jurado: i52gajus(at)uco.es
 Rafael Munoz-Salinas: rmsalinas(at)ucoes
 
+# Contact
 Maintainner:
 Di Zeng: di.zeng at transcendrobotics.com

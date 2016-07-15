@@ -33,7 +33,7 @@ sudo make install
 Enable OpenMP parallelization. Everithing is already prepared in cmakelists.txt. We only have to parallelize 
 
 
-Original Code Contact: 
+# Original Code Contact: 
 Sergio Garrido-Jurado: i52gajus(at)uco.es
 Rafael Munoz-Salinas: rmsalinas(at)ucoes
 

@@ -4,9 +4,10 @@ Originally from
 http://www.uco.es/investiga/grupos/ava/node/39
 
 
-# (Di Zeng) What I did:
+# What I did (Di Zeng) :
 - fixed some warning issue
-- fixed OpenCV 3.1 compiling error 
+- fixed OpenCV 3.1 compiling error
+- changed configure file install directory
 
 # Main features:
 - OpenCv interface of sba package.
@@ -39,4 +40,4 @@ Rafael Munoz-Salinas: rmsalinas(at)ucoes
 
 # Contact
 Maintainner:
-Di Zeng: di.zeng at transcendrobotics.com
+Di Zeng: di.zeng(at)transcendrobotics.com

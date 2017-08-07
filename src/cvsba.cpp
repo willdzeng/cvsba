@@ -58,7 +58,7 @@ double  Sba::run ( std::vector<cv::Point3f>& points, //positions of points in gl
     //copy back if STRUCTURE enabled
 
     double err = run ( points_d, imagePoints_d, visibility, cameraMatrix, R, T, distCoeffs );
-    if ( _params.type == MOTION || _params.type == MOTIONSTRUCTURE )
+    if ( _params.type == STRUCTURE || _params.type == MOTIONSTRUCTURE )
         for ( size_t i = 0; i < points_d.size(); i++ )
             points[i] = cv::Point3f ( points_d[i].x, points_d[i].y, points_d[i].z );
     return err;

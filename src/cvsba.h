@@ -31,7 +31,13 @@ namespace cvsba {
 class Sba {
 public:
 
+    // TYPE type: type of bundle adjustment optimization. Posible values:
+    // MOTIONSTRUCTURE: 3d points positions and camera extrinsic (R and T) are optimized. 
+    // Input is used as initial values.
+    // MOTION: just camera extrinsic are optimized, 3d points are fixed.
+    // STRUCTURE: just 3d points are optimized, camera extrinsic are fixed.
     enum TYPE {MOTIONSTRUCTURE = 0, MOTION, STRUCTURE };
+
     /**Params leading the optimization
      */
     struct Params {
